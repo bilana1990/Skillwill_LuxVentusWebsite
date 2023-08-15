@@ -3,81 +3,38 @@
     margin: 0;
     box-sizing: border-box;
   }
-  header {
-    background-color: white;
-    padding: 50px;
-}.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 10px; /* Added the unit for padding */
-   
-  }
-h1 {
-  color: #FFF;
-  font-family: Poppins;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.76px
-  }
-  .header-flex {
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px; /* Added the unit for padding */
+     
+    }
+
+.topic-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 18px;
-    padding-bottom: 18px;
-  }.nav-link {
-    color: #262626;
-  ;
-    font-family: "Ubuntu", sans-serif; /* Added quotes around the font name */
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-decoration: none;
-    padding: 10px;
-  }.first-section {
-    background-image: url("first-section-image/img-1.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 80px;
-  }
-  .first-section .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: baseline;
+    align-content: space-between;
+    flex-wrap: wrap;
     height: 100%;
-    gap: 50px;
-  }
-  .main-title {
-    color: #FFF;
+    padding: 0 84px 0 84px;
+}
+
+.main-title {
+    color: #262626;
 font-family: Poppins;
-font-size: 46px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;}
-
-.main-title span {
-  color: #8BA9F4;
-  background-clip: text;
-  font-family: Poppins;
-  font-size: 46px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;  
+font-size: 32px;
+font-weight: 700;
+padding-left: 84px;
 }
-   .nav-link-button {
-  text-decoration: none;
-    background-color: #4CE0D7;
-    padding: 25px 133px;
-    border-radius: 40px;
-}
- .description {
-  color:   #FFFFFF;
-  
- } 
 
-  
+.image-button {
+    border-radius: 20px;
+    border-top-color: blue;
+    border-right-color: blue;
+    border-bottom-color: blue;
+    border-left-color: blue;
+
+    
+} 
